@@ -1,0 +1,6 @@
+C:\Users\Douwe Kerstens\Desktop\Typescript\Typescript\obj\Debug\Typescript.csproj.CoreCompileInputs.cache
+C:\Users\Douwe Kerstens\Desktop\Typescript\Typescript\bin\Debug\Typescript.dll.config
+C:\Users\Douwe Kerstens\Desktop\Typescript\Typescript\bin\Debug\Typescript.dll
+C:\Users\Douwe Kerstens\Desktop\Typescript\Typescript\bin\Debug\Typescript.pdb
+C:\Users\Douwe Kerstens\Desktop\Typescript\Typescript\obj\Debug\Typescript.dll
+C:\Users\Douwe Kerstens\Desktop\Typescript\Typescript\obj\Debug\Typescript.pdb

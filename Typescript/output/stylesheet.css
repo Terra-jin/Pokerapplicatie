@@ -1,0 +1,250 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	height: 28px;
+	text-align: center;
+	font-weight: bold;
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.s {
+    color: black;
+}
+
+.h {
+    color: red;
+}
+
+.c {
+    color: green;
+}
+
+.d {
+    color: blue;
+}
+
+td {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+col {
+    width: 40px;
+    height: 40px;
+}
+
+.col {
+    width: 40px;
+    height: 40px;
+}
+
+.invis {
+
+    border: 0;
+
+}
+
+.int {
+	width: 10px;
+	height: 10px;
+	border: 0;
+	background-color: gray;
+}
+
+.ext {
+	width: 40px;
+	height: 40px;
+}
+
+.black {
+	font-weight: bold;
+	color: black;
+}
+.red {
+	font-weight: bold;
+	color: red;
+}
+.green {
+	font-weight: bold;
+	color: green;
+}
+.blue {
+	font-weight: bold;
+	color: blue;
+}
+
+.resultsButtonLeft {
+    width: 129px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 86px;
+    visibility: hidden;
+}
+
+.resultsButtonCenter {
+    width: 129px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+.resultsButtonRight {
+    width: 129px;
+    height: 20px;
+    margin-right: 43px;
+    margin-left: 20px;
+    visibility: hidden;
+}
+
+.margin43 {
+    margin-left: 43px;
+}
+
+/*
+    Legend (top-left cell of results table)
+*/
+
+.ss {
+    width: 0;
+    height: 0;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.hs {
+    width: 0;
+    height: 0;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.cs {
+    width: 0;
+    height: 0;
+    border-top: 4px solid green;
+    border-left: 4px solid green;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.ds {
+    width: 0;
+    height: 0;
+    border-top: 4px solid blue;
+    border-left: 4px solid blue;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+.sh {
+    width: 0;
+    height: 0;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+.hh {
+    width: 0;
+    height: 0;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+.ch {
+    width: 0;
+    height: 0;
+    border-top: 4px solid green;
+    border-left: 4px solid green;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+.dh {
+    width: 0;
+    height: 0;
+    border-top: 4px solid blue;
+    border-left: 4px solid blue;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+.sc {
+    width: 0;
+    height: 0;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid green;
+    border-right: 4px solid green;
+}
+.hc {
+    width: 0;
+    height: 0;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-bottom: 4px solid green;
+    border-right: 4px solid green;
+}
+.cc {
+    width: 0;
+    height: 0;
+    border-top: 4px solid green;
+    border-left: 4px solid green;
+    border-bottom: 4px solid green;
+    border-right: 4px solid green;
+}
+.dc {
+    width: 0;
+    height: 0;
+    border-top: 4px solid blue;
+    border-left: 4px solid blue;
+    border-bottom: 4px solid green;
+    border-right: 4px solid green;
+}
+.sd {
+    width: 0;
+    height: 0;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid blue;
+    border-right: 4px solid blue;
+}
+.hd {
+    width: 0;
+    height: 0;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-bottom: 4px solid blue;
+    border-right: 4px solid blue;
+}
+.cd {
+    width: 0;
+    height: 0;
+    border-top: 4px solid green;
+    border-left: 4px solid green;
+    border-bottom: 4px solid blue;
+    border-right: 4px solid blue;
+}
+.dd {
+    width: 0;
+    height: 0;
+    border-top: 4px solid blue;
+    border-left: 4px solid blue;
+    border-bottom: 4px solid blue;
+    border-right: 4px solid blue;
+}

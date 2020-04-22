@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "module": "system",
+    "jsx": "react",
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ],
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot",
+    "output"
+  ]
+}

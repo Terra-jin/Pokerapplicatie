@@ -1,0 +1,7 @@
+C:\Users\Douwe Kerstens\Desktop\Pokerapplicatie\Typescript\bin\Debug\Typescript.dll.config
+C:\Users\Douwe Kerstens\Desktop\Pokerapplicatie\Typescript\bin\Debug\Typescript.dll
+C:\Users\Douwe Kerstens\Desktop\Pokerapplicatie\Typescript\bin\Debug\Typescript.pdb
+C:\Users\Douwe Kerstens\Desktop\Pokerapplicatie\Typescript\obj\Debug\Pokerapplicatie.csprojAssemblyReference.cache
+C:\Users\Douwe Kerstens\Desktop\Pokerapplicatie\Typescript\obj\Debug\Pokerapplicatie.csproj.CoreCompileInputs.cache
+C:\Users\Douwe Kerstens\Desktop\Pokerapplicatie\Typescript\obj\Debug\Typescript.dll
+C:\Users\Douwe Kerstens\Desktop\Pokerapplicatie\Typescript\obj\Debug\Typescript.pdb

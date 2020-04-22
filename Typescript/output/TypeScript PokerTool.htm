@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="core.min.js">
+    </script>
+
+    <script src="fetch.js">
+    </script>
+
+    <script src="react.min.js">
+    </script>
+
+    <script src="react-dom.min.js">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+
+    <script src="kerstens-test.js" type="text/javascript">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+
+<body>
+
+    <h1>Poker hand strength tool</h1>
+
+    <button onclick="Kerstens.Test.Game.Instance.Reload()">Next hand</button><br /><br />
+
+    <div id="placeholderSelectedCardsTable"></div>
+    <table class="margin43">
+        <tr>
+            <td id="Card-0">..</td>
+            <td id="Card-1">..</td>
+        </tr>
+        <tr>
+            <td id="Card-2">..</td>
+            <td id="Card-3">..</td>
+            <td id="Card-4">..</td>
+        </tr>
+        <tr>
+            <td id="Card-5">..</td>
+        </tr>
+        <tr>
+            <td id="Card-6">..</td>
+        </tr>
+    </table>
+    <br />
+    <div id="placeholderInputTable"></div>
+    <br />
+    <button id="buttonFlop" class="resultsButtonLeft" onclick="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[0].combos)" type="button">Show flop results</button>
+    <button id="buttonTurn" class="resultsButtonCenter" onclick="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[1].combos)" type="button">Show turn results</button>
+    <button id="buttonRiver" class="resultsButtonRight" onclick="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[2].combos)" type="button">Show river results</button><br />
+    <p id="totalResults">Absolute hand strength rank:<br />Total equity against one opponent:<br /></p>
+    <p id="equity">Equity against this combo:<br /><br /></p>
+    <p id="straightFlushRank">Straight flush hand rank:</p>
+    <p id="quadsRank">Quads hand rank:</p>
+    <p id="fullHouseRank">Full House hand rank:</p>
+    <p id="flushRank">Flush hand rank:</p>
+    <p id="straightRank">Straight hand rank:</p>
+    <p id="tripsRank">Trips hand rank:</p>
+    <p id="twoPairRank">Two Pair hand rank:</p>
+    <p id="pairRank">Pair hand rank:</p>
+    <p id="highCardRank">High Card hand rank:<br /><br /></p>
+
+
+    <div class="wrapper">
+        <div class="column">
+            <p id="demo"></p>
+        </div>
+        <div class="column">
+            <p></p>
+            <input id="preFlopSliderPP" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="13" value="13">
+            <br />
+            <input id="preFlopSliderBW" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="20" value="20">
+            <br />
+            <input id="preFlopSliderSC" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="6" value="6">
+            <br />
+            <input id="preFlopSliderS1G" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="8" value="8">
+            <br />
+            <input id="preFlopSliderS2G" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="9" value="9">
+            <br />
+            <input id="preFlopSliderSA" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="8" value="8">
+            <br />
+            <input id="preFlopSliderAA" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="8" value="8">
+            <br />
+            <input id="preFlopSliderOC" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="6" value="6">
+            <br />
+            <input id="preFlopSliderO1G" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="8" value="8">
+            <br />
+            <input id="preFlopSliderT" oninput="Kerstens.Test.Game.Instance.CompleteResultsTable(Kerstens.Test.Game.Instance.playedPhases[Kerstens.Test.Game.Instance.shownPhase].combos)" type="range" min="0" max="83" value="83">
+            <br />
+
+        </div>
+    </div>
+
+</body>
+
+</html>
